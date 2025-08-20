@@ -29,12 +29,9 @@
         private void InitializeComponent()
         {
             this.button1 = new System.Windows.Forms.Button();
-<<<<<<< HEAD
-            this.button2 = new System.Windows.Forms.Button();
+
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-=======
->>>>>>> parent of f243c69 (feat: Add buton2)
             this.SuspendLayout();
             // 
             // button1
@@ -46,15 +43,6 @@
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
             // 
-<<<<<<< HEAD
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(333, 142);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(231, 115);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
@@ -74,19 +62,15 @@
             this.button4.Text = "button4";
             this.button4.UseVisualStyleBackColor = true;
             // 
-=======
->>>>>>> parent of f243c69 (feat: Add buton2)
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-<<<<<<< HEAD
+
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-=======
->>>>>>> parent of f243c69 (feat: Add buton2)
             this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "TEST";
@@ -97,12 +81,9 @@
         #endregion
 
         private System.Windows.Forms.Button button1;
-<<<<<<< HEAD
-        private System.Windows.Forms.Button button2;
+       
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
-=======
->>>>>>> parent of f243c69 (feat: Add buton2)
     }
 }
 
