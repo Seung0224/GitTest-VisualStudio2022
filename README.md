@@ -44,6 +44,7 @@ nano .gitignore
 
 ### 1-7) .gitignore 파일 내용 수정 (Ctrl+O를 눌러 파일을 열고 복사후 Ctrl+S 후 종료
 
+```bash
 # Visual Studio / WinForms build 산출물 제외
 [Bb]in/
 [Oo]bj/
@@ -66,6 +67,7 @@ packages/
 # OS 관련
 Thumbs.db
 .DS_Store
+```
 
 ### 1-8) .gitignore 적용 확인
 
