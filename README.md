@@ -33,26 +33,54 @@ git remote -v
 ### 1-5) .gitignore 파일 생성
 
 ```bash
-echo "bin/" >> .gitignore
-echo "obj/" >> .gitignore
-echo "*.user" >> .gitignore
-echo "*.suo" >> .gitignore
+touch .gitignore
 ```
 
-### 1-6) .gitignore 적용 확인
+### 1-6) .gitignore 파일 내용 추가
+
+```bash
+nano .gitignore
+```
+
+### 1-7) .gitignore 파일 내용 수정 (Ctrl+O를 눌러 파일을 열고 복사후 Ctrl+S 후 종료
+
+# Visual Studio / WinForms build 산출물 제외
+[Bb]in/
+[Oo]bj/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet 패키지
+packages/
+*.nupkg
+
+# 로그/캐시
+*.log
+*.cache
+*.pdb
+*.db
+
+# OS 관련
+Thumbs.db
+.DS_Store
+
+### 1-8) .gitignore 적용 확인
 
 ```bash
 git check-ignore -v bin/Debug/*
 ```
 
-### 1-7) 초기 커밋
+### 1-9) 초기 커밋
 
 ```bash
 git add .
 git commit -m "chore: initial commit (WinForms .NET Framework 4.8.1 - GitTest)"
 ```
 
-### 1-8) 원격 저장소로 푸시
+### 1-10) 원격 저장소로 푸시
 
 ```bash
 git push -u origin main
