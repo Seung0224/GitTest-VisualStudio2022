@@ -1,0 +1,25 @@
+# Visual Studio / WinForms build 산출물 제외
+[Bb]in/
+[Oo]bj/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+
+# NuGet 패키지
+packages/
+*.nupkg
+
+
+# 로그/캐시
+*.log
+*.cache
+*.pdb
+*.db
+
+
+# OS 관련
+Thumbs.db
+.DS_Store
